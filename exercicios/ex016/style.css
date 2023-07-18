@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%; */
+}
+
+/* ... o asterisco * é p/ configuraçs GLOBAIS da pág. ... o height: 100%; é p/ o degradê pegar a pág. inteira... */
+
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+}
+
+/* ... background-image é o degradê... */
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+/* ... border-radius é p/ os cantos do fundo branco ficarem torneados... box-shadow é uma sombra, sendo q o 1º nº/parâmetro é d qto a sombra vai andar p/ o lado, o 2º nº/parâmetro é d qto a sombra vai andar p/ baixo, e o 3º nº/parâmetro é d qto a sombra vai espalhar, e dep a cor da sombra... width é a largura... do main... padding é o "acoxoamento", uma borda d distância entre o txt e o fundo branco ... margin: auto; deixa o main no centro da tela... */
+
+h1 {
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+}
+
+/* ... text-align: center; deixa o h1 centralizado... o text-shadow é semelh. ao shadow anterior do main... */
+
+h2 {
+    color: #125189;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/*  */

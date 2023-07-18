@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype'); 
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(26, 92, 56), rgb(60, 219, 131));
+    margin: 0px;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;    
+    font-size: 3em;
+    margin: auto;
+    padding-top: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+nav {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    color: rgb(26, 92, 56);
+    background-color: rgb(60, 219, 131);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+main {
+    background-color: rgb(132 225 173);
+    padding: 0px 0px 1px 0px;
+    margin: 0px 0px -16px 0px;
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.274);
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p > a {
+    color: rgb(26 92 56);
+    background-color: #C5EBD6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p > strong {
+    color: rgb(26, 92, 56);
+}
+
+div {
+    text-align: center;
+    background-color: white;       
+    width: 840px;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.445);
+    border-radius: 0px 0px 10px 10px;
+}
+
+div > h1 {
+    text-align: left;
+    color: rgb(26 92 56);
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-size: 1.8em;
+    margin-top: 0px;
+    padding: 0px 20px;
+}
+
+div > h2 {
+    text-align: left;
+    color: rgb(26 92 56);
+    background-image: linear-gradient(to right, #C5EBD6, white);
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    text-indent: 10px;
+    font-size: 1.25em;
+    margin: 0px 20px;
+}
+
+div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 20px;
+}
+
+#youtube {
+    background-color: rgb(26 92 56);
+    padding: 20px 0px;
+}
+
+#caixa {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.445);
+    width: 800px;
+    margin: 0px 0px 0px 20px;
+}
+
+.aprender {
+    height: 7px;
+    color: white;
+    background-color: #2FA866;
+    padding: 10px 10px 24px 0px;
+    font-size: larger;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.aprender > strong {
+    color: white;
+}
+
+#caixa > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+}
+
+.cxp1 {
+    padding: 0px 15px;
+    text-align: justify;
+}
+
+.cxp2 {
+    padding: 0px 15px;
+    text-align: justify;
+}
+
+.cxp3 {
+    padding: 0px 15px 25px 15px;
+    text-align: justify;
+    margin: 0px;
+}
+
+span > ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    width: 380px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pfinal {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(26 92 56);
+    height: 35px;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
